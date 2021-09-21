@@ -1,0 +1,516 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: black;
+}
+.header-cont{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cont h1{
+    font-size:30px;
+    color:white;
+    padding: 10px 10px 20px 30px;
+}
+.m{
+    font-size: 50px;
+    color:rgb(0, 105, 128)
+}
+.s{
+    font-size: 50px;
+    color: purple;
+}
+.emaildeveloper-frontend-developer{
+    font-size:20px;  
+    font-style: italic;
+    font-weight: 0;
+}
+nav{
+    width: 50%;
+    position: relative;
+}
+nav a{
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+}
+nav a:nth-child(1):hover ~ .line {
+    transform: translate(-205px);
+    background-color:rgb(0, 105, 128)
+}
+nav a:nth-child(2):hover ~ .line {
+    transform: translate(-105px);
+    background-color: purple
+}
+nav a:nth-child(4):hover ~ .line {
+    transform: translate(105px);
+    background-color:purple;
+}
+.line{
+    margin-left: 205px;
+    width: 100px;
+    height: 3px;
+    background-color:rgb(0, 105, 128);
+}
+.head-background{
+    margin-top: 20px;
+    width: 100%;
+}
+.head-background h1{
+    width: 100%;
+    color: white;
+    position:absolute;
+    margin-top: -300px;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(0, 105, 128) , 0 0 5px rgb(0, 105, 128);
+}
+.title{
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px blue , 0 0 5px purple;
+}
+.img-banner{
+    position:relative;
+    height: 400px;
+    width: 100%;
+    background-image:url(mohammad-rahmani-jTTDXiNveOs-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    border: 5px solid rgb(0, 105, 128);
+}
+.img-projects{
+    width: 100px;
+}
+.title-photo{
+    width:100%;
+}
+.img-header{
+    position:relative;
+    width: 70rem;
+    margin-right: 200px;
+}
+.content{
+    border-bottom: 5px solid  rgb(0, 105, 128);
+}
+/* Start Promotional emails */
+.promotional-wrap{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+}
+.promotion-title1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    border-radius: 30px;
+    font-size:20px;
+    text-align: center;
+}
+.promotion1{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border: 10px solid rgb(0, 105, 128);
+    border-radius: 30px;
+    transition: .10s ease-in;
+    opacity: 0.7;
+}
+.appletv4k-img{
+    position: relative;
+    width:500px;
+    transition: .10s ease-in;
+}
+
+.visit-site h1{
+    position: relative;
+    left: 70px;
+    text-transform: capitalize;
+    background-color: grey;
+    width: 50%;
+    font-size: 20px;
+    border: 5px solid rgb(0, 105, 128);
+    border-radius: 35px;
+    color: white;
+    opacity: 0;
+    transition: .10s ease-in;
+}
+.promotion1:hover{
+    opacity: 100%;
+}
+.promotion1:hover .visit-site h1{
+    opacity: 10;
+}
+.promotion-title2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    border-radius: 30px;
+    font-size:20px;
+    text-align: center;
+}
+.promotion2{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    border: 10px solid rgb(0, 105, 128);
+    border-radius: 30px;
+    transition: .10s ease-in;
+    opacity: 0.7;
+}
+.appleiphone12-img{
+    position: relative;
+    width:500px;
+}
+.promotion2:hover{
+    opacity: 100%;
+}
+.promotion2:hover .visit-site h1{
+    opacity: 10;
+}
+/* End Promotional emails */
+/* Start of Projects emails */
+.projects-wrap{
+    margin-top:40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+    /* Start Transaction email */
+    .transactional-title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.33%;
+        color:white; 
+        font-size:20px;
+        text-align: center;
+    }
+    .transactional{
+        margin-top: 20px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        border: 10px solid rgb(0, 105, 128);
+        border-radius: 30px;
+        transition: .10s ease-in;
+        opacity: 0.7;
+    }
+    .appletrans-img{
+        position: relative;
+        width:500px;
+    }
+    .visit-site h1{
+        position: relative;
+        left: 23%;
+        text-transform: capitalize;
+        background-color: grey;
+        width: 50%;
+        font-size: 20px;
+        border: 5px solid rgb(0, 105, 128);
+        border-radius: 35px;
+        color: white;
+        opacity: 0;
+        transition: .10s ease-in;
+    }
+    .transactional:hover{
+        opacity: 100%;
+    }
+    .transactional:hover .visit-site h1{
+        opacity: 10;
+    }
+    /* End Transactional email */
+
+    /* Newsletter email */
+    .newsletter-title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:33.33%;
+        color:white; 
+        font-size:20px;
+        text-align: center;
+    }
+    .newsletter{
+        margin-top: 20px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        border: 10px solid rgb(0, 105, 128);
+        border-radius: 30px;
+        transition: .10s ease-in;
+        opacity: 0.7;
+    }
+    .newsletter:hover{
+        opacity: 100%;
+    }
+    .newsletter:hover .visit-site h1{
+        opacity: 10;
+    }
+    /* End Newsletter email */
+
+    /* Landing Page */
+    .landing-page-title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.33%;
+        color:white; 
+        font-size:20px;
+        text-align: center;
+    }
+    .landing-page{
+        margin-top: 20px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        border: 10px solid rgb(0, 105, 128);
+        border-radius: 30px;
+        transition: .10s ease-in;
+        opacity: 0.7;
+    }
+    .starbucks-img{
+        position: relative;
+        width:500px;
+    }
+    .landing-page:hover{
+        opacity: 100%;
+    }
+    .landing-page:hover .visit-site h1{
+        opacity: 10;
+    }
+    /* End Landing Page */
+/* End of Projects emails */
+#footer{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.emaildeveloper-frontend-developer{
+    font-size: 17px;
+    font-style: italic;
+}
+.footer-line{
+    padding:0px 40px 0px 40px;
+    border-top: solid 5px rgb(0, 105, 128);
+}
+
+@media (max-width: 1500px) {
+    .projects-wrap{
+        flex-wrap: wrap;
+    }
+    .transactional-title{
+        padding: 0 100px;
+    }
+    .newsletter-title{
+        padding: 0 100px;
+    }
+    .landing-page-title{
+        padding: 0 100px;
+    }
+}
+@media (max-width: 1320px) {
+
+    .promotional-title{
+        font-size: 15px;
+    }
+    .appletv4k-img{
+        width:300px;
+    }
+    .appleiphone12-img{
+        width:300px;
+    }
+    .appletrans-img{
+        width:300px;
+    }
+    .starbucks-img{
+        width:300px;
+    }
+    .promotion-title1{
+        font-size: 9px;
+    }
+    .promotion1{
+        font-size: 9px;
+    }
+    .promotion-title2{
+        font-size: 9px;
+    }
+    .promotion2{
+        font-size: 9px;
+    }
+    .transactional-title{
+        font-size: 9px;
+    }
+    .transactional{
+        font-size: 9px;
+    }
+    .newsletter-title{
+        font-size: 9px;
+    }
+    .newsletter{
+        font-size: 9px;
+    }
+    .landing-page-title{
+        font-size: 9px;
+    }
+    .landing-page{
+        font-size: 9px;
+    }
+}
+@media (max-width: 900px) {
+    .promotion-title1{
+        padding: 0 1px;
+    }
+    .promotion-title2{
+        padding: 0 1px;
+    }
+    .promotional-wrap{
+        flex-wrap: wrap;
+    }
+    
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    .line{
+        display: none;
+    }
+    .projects-wrap{
+        flex-wrap: wrap;
+    }
+    .transactional-title{
+        padding: 0 100px;
+    }
+    .newsletter-title{
+        padding: 0 100px;
+    }
+    .landing-page-title{
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 430px) {
+    .img-banner{
+        height: 200px;
+        width: 100%;
+    }
+    .head-background h1{
+        margin-top: -140px;
+        font-size: 50px;
+    }
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    .appletv4k-img{
+        width:150px;
+    }
+    .appleiphone12-img{
+        width:150px;
+    }
+    .appletv4k-img{
+        width:150px;
+    }
+    .appleiphone12-img{
+        width:150px;
+    }
+    .appletrans-img{
+        width:150px;
+    }
+    .starbucks-img{
+        width:150px;
+    }
+    .visit-site h1{
+        position: relative;
+        left: 23%;
+        text-transform: capitalize;
+        background-color: grey;
+        width: 50%;
+        font-size: 15px;
+        border: 5px solid rgb(0, 105, 128);
+        border-radius: 35px;
+        color: white;
+        opacity: 0;
+        transition: .10s ease-in;
+    }
+    .footer-container p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+

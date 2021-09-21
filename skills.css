@@ -1,0 +1,434 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: black;
+}
+.header-cont{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cont h1{
+    font-size:30px;
+    color:white;
+    padding: 10px 10px 20px 30px;
+}
+.m{
+    font-size: 50px;
+    color:rgb(0, 105, 128)
+}
+.s{
+    font-size: 50px;
+    color: purple;
+}
+.emaildeveloper-frontend-developer{
+    font-size:20px;  
+    font-style: italic;
+    font-weight: 0;
+}
+nav{
+    width: 50%;
+    position: relative;
+}
+nav a{
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+}
+
+nav a:nth-child(1):hover ~ .line {
+    transform: translate(-100px);
+    background-color: rgb(0, 105, 128);
+}
+nav a:nth-child(3):hover ~ .line {
+    transform: translate(105px);
+    background-color:  rgb(0, 105, 128);
+}
+nav a:nth-child(4):hover ~ .line {
+    transform: translate(210px);
+    background-color: purple
+}
+.line{
+    margin-left: 100px;
+    width: 100px;
+    height: 3px;
+    background-color:purple;
+}
+/* End of Header */
+
+/* Start of banner */
+.title{
+    margin-top: 20px;
+    width: 100%;
+}
+.img-banner{
+    position:relative;
+    height: 400px;
+    width: 100%;
+    background-image:url(walling-g9bohm9h29Q-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    border: 5px solid purple;
+}
+.title h1{
+    width: 100%;
+    color: white;
+    position:absolute;
+    margin-top: -300px;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 3px 3px blue , 0 0 5px purple;
+}
+/* End of banner */
+
+/* Start of subtitle */
+.sub-title{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: solid 5px purple;
+}
+
+.sub-title1{
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.sub-title1 h1{
+    padding: 0px;
+    border-radius: 50%;
+    color:white; 
+}
+.sub-title2 h1{
+    color: white;
+    padding: 0px;
+    border-radius: 50%;
+}
+.sub-title2 {
+    width: 50%;
+    text-align: center;
+    color: white;   
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+/* End of subtitle */
+
+/* Wrapper Section */
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    width: 100%;
+}
+#wrapper h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.box{
+    color: white;
+}
+
+.img1{
+    background-image:url(html-5.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img2{
+    background-image:url(css-3.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img3{
+    background-image:url(javascript-logo.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img4{
+    background-image:url(4375066_logo_sass_icon.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+
+.img5{
+    background-image:url(icons8-visual-studio-code-2019-480.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img6{
+    background-image:url(github.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img7{
+    background-image:url(photoshop.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+.img8{
+    background-image:url(913106.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 35px;
+}
+
+.work-process-title{
+    font-size: 18px;
+    text-align: center;
+    color:black;
+    background-color:rgb(44, 44, 44);
+    padding: 20px;
+}
+.work-process-title h1{ 
+    color: white;
+    padding: 15px;
+}
+.work-process{
+    background-color:rgb(44, 44, 44);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:row;
+    padding-bottom: 20px;
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+}
+.img9{
+    background-image:url(loupe.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img10{
+    background-image:url(idea.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img11{
+    background-image:url(sketch.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img12{
+    background-image:url(web-development.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img13{
+    background-image:url(exchange.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img14{
+    background-image:url(shuttle.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.img-arrow{
+    background-image:url(right-arrow.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 10px;
+}
+.text{
+    color: rgb(44, 44, 44);
+    padding: none;
+}
+#footer{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.emaildeveloper-frontend-developer{
+    font-size: 17px;
+    font-style: italic;
+}
+.footer-line{
+    padding:0px 40px 0px 40px;
+    border-top: solid 5px rgb(0, 105, 128);
+}
+@media (max-width: 1163px){
+    .work-process h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    .line{
+        display: none;
+    }
+    .sub-title{
+        flex-wrap: wrap;
+    }
+    .sub-title1{
+        width: 100%;
+        
+    }
+    .sub-title2{
+        width: 100%;
+    }
+    .work-process{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .text, .img-arrow{
+        display: none;
+    }
+    #wrapper h2{
+        font-size: 18px;
+    }
+    .work-process h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 430px) {
+    .img-banner{
+        height: 200px;
+        width: 100%;
+    }
+    .title h1{
+        margin-top: -140px;
+        font-size: 50px;
+    }
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    .sub-title1 h1{
+        font-size: 25px;
+    }
+    .sub-title2 h1{
+        font-size: 25px;
+    }
+    .work-process-title h1{
+        font-size: 25px;
+    }
+    #wrapper h2{
+        font-size: 18px;
+    }
+    .work-process{
+        flex-direction: column;
+    }
+    .text, .img-arrow{
+        display: none;
+    }
+    .work-process h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-container p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+

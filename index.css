@@ -1,0 +1,294 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: black;
+}
+.header-cont{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cont h1{
+    font-size:30px;
+    color:white;
+    padding: 10px 10px 20px 30px;
+}
+.m{
+    font-size: 50px;
+    color:rgb(0, 105, 128)
+}
+.s{
+    font-size: 50px;
+    color: purple;
+}
+.emaildeveloper-frontend-developer{
+    font-size:20px;  
+    font-style: italic;
+    font-weight: 0;
+}
+nav{
+    width: 50%;
+    position: relative;
+}
+nav a{
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+}
+nav a:nth-child(2):hover ~ .line {
+    transform: translate(100px);
+    background-color:purple;
+}
+nav a:nth-child(3):hover ~ .line {
+    transform: translate(205px);
+    background-color: rgb(0, 105, 128)
+}
+nav a:nth-child(4):hover ~ .line {
+    transform: translate(310px);
+    background-color:purple;
+}
+.line{
+    position: relative;
+    width: 100px;
+    height: 3px;
+    background-color:rgb(0, 105, 128);
+}
+#hero{
+    background-image:url(joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    position:relative;
+}
+.cta-cont{
+    top: 30vh;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px blue , 0 0 5px purple;
+}
+#hero .cta{
+    text-align: center;
+    position: relative;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(0, 105, 128);
+    border: 3px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+}
+#hero::after{
+    content: '';
+    position: relative;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+    z-index: -1;
+}
+#hero .cta:hover{
+    color: white;
+    background-color:purple;
+}
+#about-me{
+    background-color:rgb(44, 44, 44);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:50px 0 50px 0;
+    border-top: 5px solid  rgb(0, 105, 128);
+    border-bottom: 5px solid  rgb(0, 105, 128);
+}
+.about{
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.about-me-img1{
+    width: 100px;
+    border: 5px solid purple;
+    border-radius: 50%;   
+}
+.about-me-description{
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-left: 10px solid  rgb(0, 105, 128);
+}
+.about-me-img2{
+    width: 200px;
+    border: 10px solid rgb(0, 105, 128);
+    border-radius: 50%;   
+}
+.about-me-description h1{
+    font-size:50px;
+    position:relative;
+    color:rgb(0, 105, 128);
+    
+}
+.about-me-description p{
+    font-size: 21px;
+    padding:  30px 100px;
+    text-align: center;
+}
+
+#footer{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.emaildeveloper-frontend-developer{
+    font-size: 17px;
+    font-style: italic;
+}
+.footer-line{
+    padding:0px 40px 0px 40px;
+    border-top: solid 5px rgb(0, 105, 128);
+}
+
+@media (max-width: 900px) {
+    
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+    .line{
+        display: none;
+    }
+    .container{
+        min-height: 40vh;
+        width: 100%;
+        position:relative;
+    }
+    .cta-cont{
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cta-cont h1{
+        font-size: 30px;
+    }
+    #hero .cta{
+        font-size: 10px;
+    }
+    #about-me{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+    .about{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        font-size: 20px;
+        display: none;
+    }
+    .about-me-img1{
+        display: none;
+    }
+    .about-me-description{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+        border: none;
+    }
+    .about-me-img2{
+        margin-top: 50px;
+        width: 125px;
+    }
+    .about-me-description h1{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .about-me-description p{
+        font-size: 15px;
+        padding:  30px 125px;
+        text-align: center;
+    }   
+}
+@media (max-width: 430px) {
+    .header-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .header-title{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    .cta-cont{
+        top: 115px;
+    }
+    .about-me-description p{
+        padding: 30px 30px;
+    }
+    .footer-container p{
+        font-size: 12px;
+    }
+    
+}
+
+
