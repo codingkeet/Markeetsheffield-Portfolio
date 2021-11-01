@@ -1,8 +1,19 @@
+*, *::before, *::after { box-sizing: inherit; 
+}
+
+html {
+	box-sizing: border-box;
+}
 body{
     background-color: black;
 }
 #header{
     background-color: black;
+}
+.header-title .emaildeveloper-frontend-developer{
+    margin-left: 65px;
+    font-style: italic;
+    font-weight: 0;
 }
 .header-cont{
     position: relative;
