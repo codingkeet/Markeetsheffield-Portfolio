@@ -1,3 +1,8 @@
+*, *::before, *::after { box-sizing: inherit; 
+}
+html {
+	box-sizing: border-box;
+}
 body{
     background-color: black;
 }
@@ -24,8 +29,8 @@ body{
     font-size: 50px;
     color: purple;
 }
-.emaildeveloper-frontend-developer{
-    font-size:20px;  
+.header-title .emaildeveloper-frontend-developer{
+    margin-left: 65px;
     font-style: italic;
     font-weight: 0;
 }
@@ -81,8 +86,7 @@ nav a:nth-child(4):hover ~ .line {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 50px;
-    border: 5px solid purple;
+    opacity: 0.6;
 }
 .title h1{
     width: 100%;
@@ -103,7 +107,6 @@ nav a:nth-child(4):hover ~ .line {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    border-bottom: solid 5px purple;
 }
 
 .sub-title1{
@@ -223,7 +226,6 @@ nav a:nth-child(4):hover ~ .line {
     font-size: 18px;
     text-align: center;
     color:black;
-    background-color:rgb(44, 44, 44);
     padding: 20px;
 }
 .work-process-title h1{ 
@@ -231,14 +233,17 @@ nav a:nth-child(4):hover ~ .line {
     padding: 15px;
 }
 .work-process{
-    background-color:rgb(44, 44, 44);
     color: white;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction:row;
-    padding-bottom: 20px;
+    padding: 0px 20px 20px 20px;
+    border-bottom: solid 5px purple;
+}
+.work-process h1{
+    font-size: 25px;
 }
 .discover{
     display: flex;
@@ -301,7 +306,7 @@ nav a:nth-child(4):hover ~ .line {
     padding: 10px;
 }
 .text{
-    color: rgb(44, 44, 44);
+    color:black;
     padding: none;
 }
 #footer{
@@ -374,6 +379,10 @@ nav a:nth-child(4):hover ~ .line {
     }
 }
 @media (max-width: 430px) {
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+    }
     .img-banner{
         height: 200px;
         width: 100%;
