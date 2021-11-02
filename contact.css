@@ -171,7 +171,6 @@ nav a:nth-child(3):hover ~ .line {
     border-top: solid 5px rgb(0, 105, 128);
 }
 
-
 @media (max-width: 900px) {
     
     .header-cont{
